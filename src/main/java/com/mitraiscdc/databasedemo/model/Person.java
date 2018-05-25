@@ -18,7 +18,7 @@ public class Person {
     @NotNull
     private Date birthDate;
 
-    public Person() {
+    protected Person() {
     }
 
     public Person(int id, String name, String location, Date birthDate) {
